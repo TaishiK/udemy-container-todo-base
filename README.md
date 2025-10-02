@@ -5,7 +5,7 @@ init.sqlのタスクの更新日時を変更。稼働確認できるように、
 
 PostgresのDockerを起動
 ```bash
-docker-compose -f .\docker-compose-postgres.yml up -d
+docker-compose -f ./docker-compose-postgres.yml up -d
 ```
 
 Postgresコンテナのログを確認
